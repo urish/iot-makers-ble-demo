@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>IoT Makers Live Demo</title>
+    <style>
+      #powerBarWrapper {
+        margin: 1em 0;
+        width: 400px;
+        border: solid black 1px;
+        height: 32px;
+      }
+
+      #powerBar {
+        height: 32px;
+        background: blue;
+        width: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: salmon">Hello, IoT Makers!</h1>
+    <button onclick="connectBulb()">Connect 💡</button>
+    <button onclick="connectThingy()">Connect 🔮</button>
+    <button onclick="startGame()">Play! 🕹</button>
+
+    <div id="powerBarWrapper">
+      <div id="powerBar">
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

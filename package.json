@@ -1,0 +1,9 @@
+{
+  "name": "ble-iot-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/web-bluetooth": "^0.0.4"
+  }
+}
